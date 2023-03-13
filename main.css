@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+    background-color: antiquewhite;
+}
+
+nav {
+    font-family: 'Manrope', sans-serif;
+}
+
+.about_wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_wrapper img {
+    margin-left: 25px;
+    border: 10px solid orange ;
+    border-radius: 50%;
+
+}
+
+.about_wrapper p {
+    font-family: 'Manrope', sans-serif;
+    margin: 100px 0px 0px 50px;
+    padding: 0px;
+}
+
+.hobbies_wrapper{
+    text-align: center;
+}
+
+button{
+    border: 5px solid orange;
+    border-radius: 40%;
+
+
+}
+
+.hobbies_wrapper ul{
+    list-style: none;
+    text-align: center;
+}
+
+.favourite_wrapper{
+    text-align: center;
+}
+
+.favourite_wrapper ul{
+    list-style: none;
+    text-decoration: none;
+}
+.footer_wrapper{
+    text-align: left;
+}
